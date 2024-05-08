@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="quiz_logo.svg" type="image/x-icon" />
+    <title>Geografía de España</title>
+    <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+
+    <h3><a href="index.html">Volver al inicio</a></h3>
+    <div class="space"></div>
+
+    <section id="quiz">
+        <header>
+            <div id="quiz_score">1</div>
+            <div id="question"></div>
+        </header>
+
+        <ol id="choices"></ol>
+    </section>
+
+    <section id="modal_overlay" class="hide">
+        <div class="modal_content">
+            <h1 id="modal_message"></h1>
+            <button id="modal_button">try again</button>
+        </div>
+    </section>
+
+    <script type="module" src="./javascript/quiz.js"></script>
+</body>
+</html>

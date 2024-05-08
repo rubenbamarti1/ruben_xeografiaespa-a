@@ -6,6 +6,89 @@
     <title>Geografía de España</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+    h1, h2, h3, h4, h5, h6{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: antiquewhite;
+    }
+    li h3{
+        text-align: center;
+    }
+
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h3 a{
+        font-size: 3em;
+        color: beige;
+    }
+
+    iframe{
+  display: block;
+  margin: 20px auto;
+  border-radius: 1em;
+    }
+
+    img{
+        max-width: 60vw;
+        height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 1em;
+
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+        flex-grow: row;
+        gap: 5em;
+        text-align: center;
+        list-style: none;
+        
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: chocolate;
+    }
+
+    nav ul li a:hover{
+        text-decoration: underline;
+        color: rgb(189, 128, 85);
+    }
+
+    body{
+        background-color:darkslategray;
+        color: aliceblue;
+        margin: 0;
+    }
+
+    footer{
+        background-color:rgb(28, 46, 46);
+        margin: 0;
+        padding: 1em;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1em;
+    }
+    footer a{
+        color: aliceblue;
+    }
+    
+    section{
+        margin: 3em;
+        border-radius: 2em;
+    }
+
+    ol li{
+        margin: 2em;
+    }
+
+</style>
 <body>
     <header>
         <h1>Geografía de España</h1>
@@ -13,4 +96,85 @@
     <nav>
         <ul>
             <li><a href="#trazos">Trazos</a></li>
+            <li><a href="#relieve">Relieve</a></li>
+            <li><a href="#costas">Costas</a></li>
+            <li><a href="#clima">Clima</a></li>
+            <li><a href="#ciudades">Ciudades más bonitas</a></li>
+            <li><a href="#quiz">QUIZ</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="trazos">
+            <h2>Trazos</h2>
+            <p>[España es un país transcontinental situado en el suroeste de Europa y en el norte de África. Además de ocupar la mayor parte de la península ibérica, España está formada por dos archipiélagos (el de las islas Canarias en el océano Atlántico y el de las islas Baleares en el mar Mediterráneo) y dos ciudades autónomas (Ceuta y Melilla) en el norte de África, aparte de varias islas menores en esta zona y otras cercanas a la península, como el peñón de Vélez de la Gomera, el peñón de Alhucemas, las islas Chafarinas y la isla del Perejil. España limita al oeste con el océano Atlántico y Portugal; al norte con el mar Cantábrico, al noreste con Francia y Andorra, al otro lado de la cordillera de los Pirineos; al este con el mar Mediterráneo y al sur con Marruecos, en las fronteras de Ceuta y de Melilla en el continente africano.]</p>
+        </section>
+        <section id="relieve">
+            <h2>Relieve</h2>
+            <p>[El relieve de España se caracteriza por ser bastante elevado, con una altitud media de 660 metros sobre el nivel del mar, bastante montañoso si lo comparamos con el resto de países de Europa y solo superado por Suiza, Austria, Grecia y los microestados de Andorra y Liechtenstein. En la España peninsular, el relieve se articula en torno a una gran Meseta Central que ocupa la mayor parte del centro de la península ibérica. Fuera de la meseta, está la depresión del río Guadalquivir, situada en el sudoeste de la península, y la del río Ebro, en el nordeste de la misma.
 
+                Los sistemas montañosos de España son muy numerosos y ocupan casi la mitad del territorio nacional. Los Pirineos (en el límite nordeste) y el sistema Bético (en el sudeste) son las cordilleras más elevadas y se sitúan fuera de la Meseta Central. Rodeando esta, está la cordillera Cantábrica en el norte, el sistema Ibérico en el este, y Sierra Morena en el sur. Dentro de la Meseta Central está el sistema Central y los montes de Toledo.
+                
+                A España pertenecen dos archipiélagos de interés geográfico: las islas Baleares, situadas en el mar Mediterráneo, con una latitud similar a la de Castilla-La Mancha; y las islas Canarias, siete islas de origen volcánico ubicadas en el océano Atlántico, próximas a la costa del Sahara Occidental; y con menos importancia: la isla de Alborán entre España y Marruecos y las islas Columbretes en Castellón. De España también son algunos pequeños enclaves costeros del norte de África: las ciudades de Ceuta y Melilla, las islas Chafarinas, y los peñones de Alhucemas y de Vélez de la Gomera.
+                
+                La costa española, bañada por el océano Atlántico, y los mares Cantábrico y Mediterráneo, presenta una gran diversidad de playas, acantilados y rías. La costa alta (presencia de acantilados y rasas) y articulada (presencia de rías y cabos) es la más predominante en el norte y en las islas Canarias, mientras que la costa baja (presencia de playas y calas) es propia del sur, del Mediterráneo y Baleares.]</p>
+        </section>
+        <section id="costas">
+            <h2>Costas</h2>
+            <p>[España tiene alrededor de 7.661 km de costa (ver desglose más abajo), repartidos entre el litoral peninsular, los archipiélagos de las islas Baleares y las islas Canarias, situados en el mar Mediterráneo y el océano Atlántico respectivamente; las ciudades autónomas de Ceuta y Melilla y las denominadas plazas de soberanía diseminadas por el norte de África. El primer rasgo que se observa es la rigidez para así ser de fiel a sus contornos, en contraste con las articulaciones de otras penínsulas mediterráneas, como la península balcánica o la península itálica, por ejemplo. Este carácter destaca sobre todo en las costas atlánticas españolas. En el mar Cantábrico, a lo largo de unos 770 km, desde el País Vasco a la Estaca de Bares, en Galicia, el punto más septentrional de la península ibérica (43°47'25"N), la costa, de dirección este-oeste, es rectilínea, y su trazado refleja un gran accidente geológico orientado en la misma dirección.
+                En Galicia, el ángulo noroeste queda truncado entre el cabo Ortegal y el cabo de Finisterre, para acabar describiendo un giro de 90° y tomar la dirección norte-sur, hasta la punta del cabo San Vicente, en el extremo meridional de Portugal. Dicha costa es también rectilínea durante otros 800 km, si se exceptúa el saliente de la península portuguesa de Peniche, con el cabo Carvoeiro.
+                A partir de aquí el litoral es más sinuoso y empiezan los óvalos mediterráneos o grandes arcos que se inician con el golfo de Cádiz, encuadrado entre las costas portuguesas, en el cabo de Santa María (Portugal) (isla da Barreta, Faro (Portugal)-Algarve) y el extremo avanzado hacia el sur (Punta de Tarifa, 39°59'50"N) con que se inicia el estrecho de Gibraltar, en una longitud de unos 295 km; sigue el óvalo del mar de Alborán, arco tendido en dirección este-oeste en unos 398 km y que tiene a Málaga en el centro; aquí la costa tuerce hacia el nordeste y dibuja otros dos óvalos muy abiertos entre los cabos de Gata y San Antonio, el primero de los cuales tiene a Cartagena en el extremo septentrional y el segundo a Alicante en el centro, con una longitud entre ambos de 453 km; y finalmente el dilatado y abierto golfo de Valencia, que se puede considerar termina con el saliente del delta del Ebro. A partir de aquí la costa vuelve a ser bastante rectilínea y corre casi paralela a la cadena Costera Catalana hasta el cabo de Bagur, en donde se adentra para formar el golfo de Rosas, extendido hasta el cabo de Creus (longitud 3° 19' 5"), extremo oriental de la Península que señala la punta saliente de los relieves pirenaicos.]</p>
+        </section>
+        <section id="clima">
+            <h2>Clima</h2>
+            <p>[La península ibérica está ubicada en un lugar destacado dentro de la circulación general atmosférica, que no permanece estática sino que existen diferentes movimientos de norte a sur, según la estación del año. La península se encuentra en una zona templada, no teniendo características climáticas homogéneas al ser zona de mezcla entre zonas de aire cálido y zonas de aire frío (subtropicales y polares).
+
+                La variada orografía de España, así como su situación geográfica, en latitudes medias de la zona templada del hemisferio Norte, hace que el país tenga una notable diversidad climática. Así pasamos de lugares con suaves temperaturas, en torno a los 15 °C, a otros que superan los 40 °C en verano, y de sitios con un clima oceánico húmedo con precipitaciones anuales de más de 2500 mm a sitios con un clima mediterráneo desértico que no superan los 200 mm anuales, como es el cabo de Gata, con 150 mm anuales.
+                Sin embargo, hay una serie de rasgos generales que pueden resumirse en los siguientes puntos:
+                
+                En las tierras del interior, los valores descienden de Poniente a Levante.
+                Las temperaturas aumentan de norte a sur. La parte septentrional de la Meseta presenta valores entre los 10 °C y 15,5 °C, y la zona meridional, entre 12,5 °C y 15 °C.
+                Enero suele ser el mes con la temperatura media más baja, mientras que agosto es el mes con el promedio más alto.
+                Las temperaturas de las aguas del Mediterráneo son más altas que las del Cantábrico. En el primero, la media se sitúa entre los 15 °C y los 18 °C, mientras que en el segundo, ronda los 14 °C.
+                La amplitud térmica es mayor en el interior de la Meseta, donde en ocasiones alcanza los 20 °C, mientras en lugares como Canarias esa amplitud es menor, y entre el mes más cálido y el más frío apenas hay variación de 5 °C.]</p>
+        </section>
+        <section id="ciudades">
+            <h2>Ciudades más bonitas</h2>
+            <ol>
+                <li>
+                    <h3>Sevilla</h3>
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1389247598-64b917b2405b4.jpg?crop=0.669xw:1.00xh;0.273xw,0&resize=640:*" alt=""></li>
+               
+                    <li>
+                        <h3>San Sebastián</h3>
+                        <img src="https://media.istockphoto.com/id/1041664354/es/foto/vista-panor%C3%A1mica-de-donisti-san-sebasti%C3%A1n-al-atardecer-euskadi-espa%C3%B1a.jpg?s=612x612&w=0&k=20&c=D4hW3dyPcBk_qlPUmLWJfgMLf6iBobdf089R2RGICWk=" alt="">
+                    </li>
+                
+                <li>
+                    <h3>Santiago de Compostela</h3>
+                    <img src="https://a.cdn-hotels.com/gdcs/production71/d324/e92744b0-708b-11e8-8a0f-0242ac11000c.jpg" alt="">
+                </li>
+              
+                <li>
+                    <h3>Granada</h3>
+                    <img src="https://content.r9cdn.net/rimg/dimg/3b/c2/b4c4bfb9-city-27138-55689ae0.jpg?width=1366&height=768&xhint=1902&yhint=1090&crop=true" alt="">
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Video explicativo</h2>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yAf0Bi_eeG4?si=vrgRkyFQR8W2Easw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="quiz">
+            <h3><a href="quiz.html">QUIZ!</a></h3>
+
+        </section>
+    </main>
+    <footer>
+        <p> Geografía de España</p>
+        <p><a href="https://github.com/pangilinanervin22/mini-quiz">Fuentes</a></p>
+    </footer>
+</body>
+</html>
